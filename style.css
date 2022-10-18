@@ -9,7 +9,10 @@
 body{
   background: #88ABFF;
 }
+.nav-item:hover{
+  color: #618cf8;
 
+}
 .navbar-dark bg-dark{
     background: linear-gradient(90deg,);
 }
@@ -21,6 +24,20 @@ body{
     background-color: blue;
 }
 
+#newBut{
+  border: 2px solid #618cf8;
+  background-color: white;
+  color: gray;
+}
+
+#newBut:hover{
+  background-color: #618cf8;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.7s;
+
+
+}
 
 
 ::selection{
